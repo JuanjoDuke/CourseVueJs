@@ -21,9 +21,9 @@
                             <th>Nombre</th>
                             <th>Promedio</th>
                         </tr>
-                        <tr>
-                            <td>Luis</td>
-                            <td>15</td>
+                        <tr v-for="item in lista">
+                            <td v-text="item.name"></td>
+                            <td v-text="item.average"></td>
                         </tr>
                     </table>
                 </div>

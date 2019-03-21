@@ -2,9 +2,9 @@ var app=new Vue({
     el :'#app',
     data:{
         lista : [
-            {nombre:'Juan Carlos',promedio:'10',estado: false},
-            {nombre:'Liliana Nataly',promedio:'17',estado: false},
-            {nombre:'Luis Alberto',promedio:'18',estado: false}
+            {name:'Juan Carlos',average:'10',status: false},
+            {name:'Liliana Nataly',average:'17',status: false},
+            {name:'Luis Alberto',average:'18',status: false}
         ],
     }
 })
