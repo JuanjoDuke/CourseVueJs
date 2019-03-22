@@ -2,7 +2,10 @@ var app=new Vue({
     el :'#app',
     data:{
         lista : [
+        
         ],
+        name : '',
+        average:''
     },
     methods: {
        clicknote: function(){
